@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Zhi+Mang+Xing&display=swap');
+
+body {
+    background-image: url('bg-konoha.png'); 
+    background-color: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px; 
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid #FF7A00;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Zhi Mang Xing', cursive;
+    color: #FF7A00;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+h2 {
+    font-family: 'Zhi Mang Xing', cursive;
+    color: #FF7A00;
+    border-bottom: 2px solid #5
+}
