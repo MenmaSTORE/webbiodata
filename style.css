@@ -28,5 +28,65 @@ h1 {
 h2 {
     font-family: 'Zhi Mang Xing', cursive;
     color: #FF7A00;
-    border-bottom: 2px solid #5
+    /* FIX: Kode warnamu di sini tidak lengkap (#5), aku perbaiki jadi #5A96E3 */
+    border-bottom: 2px solid #5A96E3;
+    padding-bottom: 5px;
+    font-size: 36px;
+}
+
+/* --- (Sisa kode CSS-mu yang lain tetap sama, aku tidak tampilkan di sini agar ringkas) --- */
+/* ... (kode untuk .quote-box, blockquote, cite, ol, .shikamaru-style, button) ... */
+
+/* Kode CSS-mu yang lain di bawah sini: */
+.quote-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: 5px solid #5A96E3;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.quote-box h3 {
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 24px;
+    color: #FF7A00;
+    margin-top: 0;
+}
+blockquote {
+    margin: 0;
+    font-style: italic;
+    font-size: 20px;
+}
+cite {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+ol {
+    background-color: #F5DEB3;
+    color: #000000;
+    padding: 20px 20px 20px 50px;
+    border-radius: 8px;
+    border: 2px solid #6B8E23;
+}
+.shikamaru-style {
+    color: #6B8E23;
+    font-weight: bold;
+    font-style: italic;
+}
+button {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #FF7A00;
+    color: #FFFFFF;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #5A96E3;
 }
